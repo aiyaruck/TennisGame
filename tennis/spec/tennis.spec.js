@@ -1,5 +1,11 @@
+var letter = "Hi I am Tennis Game";
+var letter2 = "Hi I am Somnuek and Aiyaruck";
+
 describe("Tennis Game", function() {
-  it("contains spec with an expectation", function() {
-    expect(true).toBe(true);
+  it("TEST RUS PASS1", function() {
+    expect(letter).toEqual("Hi I am Tennis Game");
+  });
+  it("TEST RUN PASS2",function(){
+    expect(letter2).toEqual("Hi I am Somnuek and Aiyaruck")
   });
 });
