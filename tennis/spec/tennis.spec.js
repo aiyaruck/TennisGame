@@ -80,13 +80,14 @@ function Tennis() {
 
 
 
-describe("Tennis", function() {
+  describe("Tennis", function() {
   var tennis = new Tennis();
     it('should echo "Love - Love" when start game', function() {
         tennis.start();
         expect(tennis.echo()).toEqual('Love - Love');
       })
-    it('should echo "Fifteen - Love" when  score 15-0', function() {
+
+        it('should echo "Fifteen - Love" when  score 15-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Fifteen - Love');
         })
@@ -94,21 +95,21 @@ describe("Tennis", function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Thirty - Love');
         })
-    it('should echo "Forty - Love" when score 40-0', function() {
+        it('should echo "Forty - Love" when score 40-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Forty - Love');
         })
-    /*it('should echo "PlayerA Won" when score end', function() {
+        it('should echo "PlayerA Won" when score end', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('PlayerA Won');
         })
 
-    /*    it('should echo "Love - Fifteen" when score 0-15', function() {
+        it('should echo "Love - Fifteen" when score 0-15', function() {
             tennis.start();
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('Love - Fifteen');
         })
-        it('should echo "Love - Thirty" when score 0-30', function() {
+      /*  it('should echo "Love - Thirty" when score 0-30', function() {
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('Love - Thirty');
         })
