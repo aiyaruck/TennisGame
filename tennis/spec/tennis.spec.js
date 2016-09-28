@@ -1,6 +1,6 @@
 function Tennis() {
-  var a = 0;
-  var b = 0;
+  var a ;
+  var b ;
   this.start=function(){
     a=0;
     b=0;
