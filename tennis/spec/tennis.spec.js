@@ -86,19 +86,20 @@ function Tennis() {
         tennis.start();
         expect(tennis.echo()).toEqual('Love - Love');
       })
+
         it('should echo "Fifteen - Love" when  score 15-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Fifteen - Love');
         })
-        it('should echo "Fifteen - Love" when  score 30-0', function() {
+    it('should echo "Fifteen - Love" when  score 30-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Thirty - Love');
         })
-        /*it('should echo "Forty - Love" when score 40-0', function() {
+        it('should echo "Forty - Love" when score 40-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Forty - Love');
         })
-        it('should echo "PlayerA Won" when score end', function() {
+      /*  it('should echo "PlayerA Won" when score end', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('PlayerA Won');
         })
