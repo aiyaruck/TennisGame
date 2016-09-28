@@ -80,7 +80,7 @@ function Tennis() {
 
 
 
-describe("Tennis", function() {
+  describe("Tennis", function() {
   var tennis = new Tennis();
     it('should echo "Love - Love" when start game', function() {
         tennis.start();
