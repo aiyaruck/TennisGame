@@ -127,10 +127,10 @@ function Tennis() {
             tennis.keepscoreB();
             expect(tennis.draw()).toEqual('Fifteen - Fifteen');
         })
-        /*it('should echo "Thirty - Fifteen" when score end', function() {
+        it('should echo "Thirty - Fifteen" when score end', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Thirty - Fifteen');
-        })*/
+        });
 
 
     });
