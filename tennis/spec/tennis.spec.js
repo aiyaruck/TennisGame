@@ -33,6 +33,7 @@ function Tennis() {
             a = 50;
         }
     }
+
     this.scoreA = function() {
         if (a === 15 && b === 0) {
             return 'Fifteen - Love';
@@ -46,6 +47,7 @@ function Tennis() {
             return 'PlayerA Won';
         }
     }
+
     this.scoreB = function() {
         if (b === 15 && a === 0) {
             return 'Love - Fifteen';
@@ -57,20 +59,13 @@ function Tennis() {
             return 'PlayerB Won';
         }
     }
+
     this.draw = function() {
         if (a === b) {
             return 'Fifteen - Fifteen';
         }
     }
-
-
 }
-
-
-
-
-
-
 
 describe("Tennis", function() {
     var tennis = new Tennis();
@@ -123,6 +118,4 @@ describe("Tennis", function() {
         tennis.keepscoreA();
         expect(tennis.scoreA()).toEqual('Thirty - Fifteen');
     });
-
-
 });
