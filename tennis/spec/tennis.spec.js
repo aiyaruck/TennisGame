@@ -86,11 +86,11 @@ describe("Tennis", function() {
         tennis.start();
         expect(tennis.echo()).toEqual('Love - Love');
       })
-      /*  it('should echo "Fifteen - Love" when  score 15-0', function() {
+    it('should echo "Fifteen - Love" when  score 15-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Fifteen - Love');
         })
-        it('should echo "Fifteen - Love" when  score 30-0', function() {
+        /*it('should echo "Fifteen - Love" when  score 30-0', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Thirty - Love');
         })
