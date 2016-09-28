@@ -121,13 +121,13 @@ function Tennis() {
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('PlayerB Won');
         })
-        /*it('should echo "Fifteen - Fifteen" when  score 15-15', function() {
+        it('should echo "Fifteen - Fifteen" when  score 15-15', function() {
             tennis.start();
             tennis.keepscoreA();
             tennis.keepscoreB();
             expect(tennis.draw()).toEqual('Fifteen - Fifteen');
         })
-        it('should echo "Thirty - Fifteen" when score end', function() {
+        /*it('should echo "Thirty - Fifteen" when score end', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Thirty - Fifteen');
         })*/
