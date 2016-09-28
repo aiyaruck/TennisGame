@@ -98,7 +98,7 @@ describe("Tennis", function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('Forty - Love');
         })
-    it('should echo "PlayerA Won" when score end', function() {
+    /*it('should echo "PlayerA Won" when score end', function() {
             tennis.keepscoreA();
             expect(tennis.scoreA()).toEqual('PlayerA Won');
         })
