@@ -109,11 +109,11 @@ function Tennis() {
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('Love - Fifteen');
         })
-      /*  it('should echo "Love - Thirty" when score 0-30', function() {
+        it('should echo "Love - Thirty" when score 0-30', function() {
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('Love - Thirty');
         })
-        it('should echo "Love - Forty" when score 0-40', function() {
+        /*it('should echo "Love - Forty" when score 0-40', function() {
             tennis.keepscoreB();
             expect(tennis.scoreB()).toEqual('Love - Forty');
         })
